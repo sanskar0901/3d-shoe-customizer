@@ -1,4 +1,5 @@
 .App {
+  background-color: black;
   text-align: center;
 }
 
@@ -7,16 +8,36 @@
   pointer-events: none;
 }
 .canvas{
+  /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+  background: url(https://i.pinimg.com/736x/37/e2/b9/37e2b9b1a426c0985b6e6e6d52a05be7.jpg);
+  background-repeat: no-repeat;
+  background-size: 80vw 100vh;
+  width: 80vw !important;
   height: 100vh !important;
-  width: 100vw !important;
+  
 }
 .picker{
   position: absolute;
-  left:10vw;
+  left:5vw;
   top:5vh;
   z-index: 999;
+  color: white;
 }
-
+.shoecomp{
+  display: flex;
+}
+.shoeSelector{
+  color: white;
+  width: 20vw;
+  background:url(https://eskipaper.com/images/wood-wallpaper-hd-1.jpg});
+}
+.shoeimg{
+width: 19vw;
+height: 35vh;
+border-style: solid;
+  border-color: black;
+border-radius: 5px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
