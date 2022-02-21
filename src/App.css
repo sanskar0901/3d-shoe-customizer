@@ -1,6 +1,8 @@
 .App {
   background-color: black;
   text-align: center;
+  background: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMHdvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+
 }
 
 .App-logo {
@@ -9,7 +11,7 @@
 }
 .canvas{
   /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
-  background: url(https://i.pinimg.com/736x/37/e2/b9/37e2b9b1a426c0985b6e6e6d52a05be7.jpg);
+  /* background: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMHdvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80); */
   background-repeat: no-repeat;
   background-size: 80vw 100vh;
   width: 80vw !important;
@@ -25,11 +27,14 @@
 }
 .shoecomp{
   display: flex;
+  background: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMHdvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 .shoeSelector{
   color: white;
   width: 20vw;
-  background:url(https://eskipaper.com/images/wood-wallpaper-hd-1.jpg});
+  /* background:url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMHdvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80); */
 }
 .shoeimg{
 width: 19vw;

@@ -242,7 +242,7 @@ function Model({ ...props }) {
 function Nzxt() {
     const snap = useSnapshot(star)
     return <div>
-        <center style={{ position: "absolute", left: "30vw" }}>
+        <center style={{ position: "absolute", left: "30vw", color: 'white' }}>
             <h1>CLICK ON SHOE TO CHANGE COLOR</h1>
         </center>
 

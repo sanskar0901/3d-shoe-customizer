@@ -65,7 +65,7 @@ function Shoe() {
     const snap = useSnapshot(state)
     return <div>
         <center style={{ position: "absolute", left: "30vw" }}>
-            <h1 style={{ zIndex: 999 }}>CLICK ON SHOE TO CHANGE COLOR</h1>
+            <h1 style={{ zIndex: 999, color: 'white' }}>CLICK ON SHOE TO CHANGE COLOR</h1>
         </center>
 
         <div className="picker">
